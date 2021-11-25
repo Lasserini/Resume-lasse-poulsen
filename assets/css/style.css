@@ -1,0 +1,17 @@
+/* Import from Google Fonts. Roboto as the main font and Exo 2 for headings */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto&display=swap');
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/lasse_poulsen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
