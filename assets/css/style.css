@@ -23,6 +23,21 @@
     background-color: #525252;
 }
 
+/* ------------------------------------- General Settings */
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /* ------------------------------------- Heading */
 header {
     margin: 0;
@@ -108,8 +123,15 @@ header {
     letter-spacing: 2px;
 }
 
-
 /* ------------------------------------- Hover CSS */
 .hvr-sweep-to-bottom:before {
     height: 120px;
+}
+
+/* ------------------------------------- Footer */
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
