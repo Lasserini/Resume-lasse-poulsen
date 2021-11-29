@@ -140,6 +140,10 @@ footer {
     margin: 0;
 }
 
+#footer-details {
+    padding: 20px;
+}
+
 .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
@@ -154,16 +158,21 @@ footer {
     color: #e84610;
 }
 
-.resources-links i {
-    font-size: 18px;
-    color: #fafafa;
+.resources-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 7px;
     text-align: center;
-    padding-left: 5px;
+    color: #fafafa;
+    background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
 }
 
 .resources-links i:hover {
-    color: #e84610;
+    background: #e84610;
 }
