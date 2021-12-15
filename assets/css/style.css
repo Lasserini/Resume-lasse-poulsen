@@ -212,6 +212,16 @@ footer {
     margin-bottom: 15px;
 }
 
+.external-links {
+    text-decoration: none;
+    color:#9b59b6;
+}
+
+.external-links:hover {
+    text-decoration: none;
+    color: #e84610;
+}
+
 /* ------------------------------------- Personal Info */
 .personal-info-item {
     margin-bottom: 20px;
