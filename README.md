@@ -63,8 +63,7 @@ The website is aimed at potential employers.
 ### 2.2 Features left to implement / minor fixes needed
 - Resume page rework to make room for a Education Timeline (located on the right on desktop size screen)
 - Add backend functionality to Contact Formular
-- Functional CV download.
-- Alter profile image slightly to provide a better look in desktop mode.
+- Add English version of CV for download
 
 ## 3. Technologies Used
 
