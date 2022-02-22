@@ -1,8 +1,9 @@
 <h1 align="center">Resume Page</h1>
 
-<h2 align="center">Add image upon site completion</h2>
+<h2 align="center"><img src="https://github.com/Lasserini/images/Resume_page_image.png"></h2>
 
 This website is provides an alternative way of accesing my resume and programming abilities. I build it during a Bootstrap module to try Bootstrap in practice and to provide some code using Bootstrap for others to assess.
+The site also features usage of 3 API services.
 
 [Visit the deployed website](https://lasserini.github.io/Resume-lasse-poulsen/)
 
@@ -14,6 +15,7 @@ The site provides a, hopefully, more interesting approach to reading and accessi
 ### 1.2 Project goals
 - Create a visually attractive website representation of my Resume.
 - Utilize Bootstrap to display my capeabilies within that framework.
+- Incorporate various API services.
 
 ### 1.3 Target audience
 The website is aimed at potential employers.
@@ -27,6 +29,7 @@ The website is aimed at potential employers.
 - As a user, I want to see what skillset a potential employee has.
 - As a user, I want to read about previous work history.
 - As a user, I want to see details about the coders education.
+- As a user, I want easy access to the owners Github repositories.
 
 ## 2. Features
 ### 2.1 Current Features
@@ -57,13 +60,13 @@ The website is aimed at potential employers.
 
     <br>
 *   The Contact page includes:
-    - Update upon site completion.
+    - A contact form that sends an email to the site owner.
 
 
 ### 2.2 Features left to implement / minor fixes needed
-- Resume page rework to make room for a Education Timeline (located on the right on desktop size screen)
-- Add backend functionality to Contact Formular
 - Add English version of CV for download
+- Find a method to add more descriptive tags to map markers on the education site.
+- Run validators & fix potential issues.
 
 ## 3. Technologies Used
 
@@ -72,17 +75,22 @@ The website is aimed at potential employers.
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+-   [jQuery](https://en.wikipedia.org/wiki/JQuery)
 
 ### 3.2 Frameworks, Libraries & Programs Used
 
-1. [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
-    - Bootstrap is
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the Roboto and Oswald fonts used throughout the site.
 1. [Gitpod](https://gitpod.io/)
     - Gitpod was used to develop the website.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git. And to host the project.
+1. [EmailJS:](https://www.emailjs.com/)
+    - EmailJS API service is used to send emails using the formula on the contact page.
+1. [Google Maps JavaScript API:](https://developers.google.com/maps/documentation/javascript/overview)
+    - The Maps API is used to display the map, and to add the map clusters on the Education page.
+1. [GitHub Repos API:](https://docs.github.com/en/rest/reference/repos)
+    - GitHub Repos API is used to display my repositories. Also adds a search function for other Github users repositories.
 1. [Responsive Design Checker:](https://www.responsivedesignchecker.com/)
     - Used in the testing process to check responsiveness on various devices.
 1. [Am I Responsive:](http://ami.responsivedesign.is/)
@@ -94,12 +102,10 @@ The website is aimed at potential employers.
 1. [FontAwesome](https://fontawesome.com/)
     - Used to add awesome icons to improve the visual experience.
 
-## 4. Testing
-More info regarding the test period once site development is completed.
 
-## 5. Deployment
+## 4. Deployment
 
-### 5.1 GitHub Pages
+### 4.1 GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -111,7 +117,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-### 5.2 Making a Local Clone
+### 4.2 Making a Local Clone
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. Under the repository name, click "Clone or download".
@@ -137,15 +143,10 @@ $ git clone https://github.com/Lasserini/Resume-lasse-poulsen
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-## 6. Credits
-
-### Content
-
--   All content was written by the developer.
+## 5. Credits
 
 ### Media
 -   The profile picture is taken by photographer Katja Anna Poulsen Frederiksen
-
 
 ### Acknowledgements
 
