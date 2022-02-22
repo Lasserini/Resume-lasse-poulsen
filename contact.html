@@ -58,10 +58,10 @@
                     <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
-                        <textarea name="contactmessage" id="contactmessage" class="form-control" placeholder="Job Description" rows="5"></textarea>
+                        <textarea name="contactmessage" id="contactmessage" class="form-control" placeholder="Job Description" rows="5" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Request</button>
+                                <button id="submit_button" type="submit" class="btn btn-secondary">Send Request</button>
                             </div>
                         </div>
                     </form>
