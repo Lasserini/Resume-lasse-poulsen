@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <title>Lasse Poulsen</title>
 </head>
-<body onload="incompleteAlert()">y>
+<body>
     <header>
         <div class="row no-gutters">
             <a href="index.html" class ="col-md-4 logo"></a>
@@ -55,7 +55,7 @@
                 <h5 class="uppercase text-center">Get in touch!</h5>
 
                 <div class="center-form">
-                    <form action="">
+                    <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
                         <textarea name="contactmessage" id="contactmessage" class="form-control" placeholder="Job Description" rows="5"></textarea>
@@ -108,24 +108,13 @@
         </div>
 
     </footer>
-</body>
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_8PK1bsiY8eMynDE0u0PyM");
-      var templateParams = {
-    name: 'Søren',
-    notes: 'Arbejd arbejd'
-    };
- 
-    emailjs.send('service_emk5e49', 'resumePage', templateParams)
-        .then(function(response) {
-        console.log('SUCCESS!', response.status, response.text);
-        }, function(error) {
-        console.log('FAILED...', error);
-    });
-})();
+    <script src="assets/js/email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("user_8PK1bsiY8eMynDE0u0PyM");
+    })();
 </script>
+</body>
 
 </html>
