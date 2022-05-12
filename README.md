@@ -1,6 +1,6 @@
 <h1 align="center">Resume Page</h1>
 
-<h2 align="center"><img src="https://github.com/Lasserini/images/Resume_page_image.png"></h2>
+<h2 align="center"><img src="https://github.com/Lasserini/Resume-lasse-poulsen/blob/main/assets/images/Resume_page_image.png"></h2>
 
 This website is provides an alternative way of accesing my resume and programming abilities. I build it during a Bootstrap module to try Bootstrap in practice and to provide some code using Bootstrap for others to assess.
 The site also features usage of 3 API services.
